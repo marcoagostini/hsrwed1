@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+Images can improve the design and apperance of a web page. Images are not technically inserted into a web page; images are linked to web pages. The img tag creates a holding space for the referenced image.<br>
+<img src="src/demo.png" alt="Italian Trulli" style="width:500px;height:600px;"><br>
+<img src="src/demo.png" alt="Girl in a jacket" width="825" height="550"><br>
+
+A image can also be used as a link.<br>
+<a href="default.asp">
+<img src="src/demo.png" alt="HTML tutorial" style="width:42px;height:42px;">
+</a><br>
+
+Images can also float on the webpage.<br>
+<p><img src="src/demo.png" alt="Smiley face" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+
+<h1>Image Maps</h1>
+With html we can create image maps and therefore create clickable areas on the images. The HTML map tag defines an image map. An image map is an image with clickable areas. The areas are defined with one or more area tags. The idea behind an image map is that you should be able to perform different actions depending on where in the image you click. The usemap value starts with a hash tag # followed by the name of the image map, and is used to create a relationship between the image and the image map.<br>
+<h2>Areas</h2>
+There are diffrent shapes that can be used to click on a certain region.
+rect, circle, poly.
+
+<img src="src/demo.png" alt="Workplace" usemap="#testscreen">
+
+<map name="testscreen">
+    <area shape="rect" coords="34,44,270,350" alt="test" href="google.ch">
+    <!-- X, Y, radius-->
+    <area shape="circle" coords="400, 300, 200" onclick="myFunction()">
+    <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="itnetx.ch">
+</map>
+<h2>Image Map and JavaScript</h2>
+A clickable are can also trigger a javascript function.
+<script>
+function myFunction() {
+    alert("You just clicked a test picture!");
+}
+</script>
+</body>    
+</html>
