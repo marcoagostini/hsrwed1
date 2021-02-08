@@ -1,0 +1,53 @@
+/* Introdcution to css - Marco Agostini */
+/* 
+p = selector
+color = property
+red = property values
+*/
+p {
+    color: blue;
+    text-align: center;
+    font-size: 10;
+  }
+/*
+CSS knows five categories:
+- simple selectors (name, id, class)
+- combinator selectors (relationship)
+- pseudo-class selectors (certain state)
+- pseudo-elements selectors (style and part of element)
+- attribute selectors (based on attribute or attribute value)
+*/
+/* element selector */
+p {
+    text-align: center;
+    color: red;
+  }
+/* id selector */
+#para1 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+  }  
+/* class selector */
+.center {
+    text-align: center;
+    color: rgba(255, 0, 0, 255);
+    background-color: black;
+  }
+p.center {
+    text-align: center;
+    color: red;
+  }
+.large {
+    font-size: 1000%;
+}  
+/* universal selector */
+* {
+    text-align: center;
+    color: blue;
+  }
+/* grouping selectors */
+h1, h2, p {
+    text-align: center;
+    color: red;
+  }  
+
