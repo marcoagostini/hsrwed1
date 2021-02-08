@@ -1,0 +1,17 @@
+div {
+    width: 320px;
+    padding: 10px;
+    border: 20px solid black;
+    margin: 20px;
+    border-color: green;
+    outline-style: solid;
+    outline-width: 20px;
+    outline-color: greenyellow;
+    /* Total width = width + 2*padding + 2*border + 2*margin */ 
+  }
+
+p {
+    border: 10px solid black;
+    padding: 10px;
+    margin: 10px;
+}

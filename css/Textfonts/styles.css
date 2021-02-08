@@ -1,0 +1,19 @@
+body {
+    color: aliceblue;
+    background-color: black;
+}
+h1 {
+    color: aliceblue;
+    text-align: center;
+
+}
+h1.rtl {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+h2 {
+    text-align: left;
+}
+h3 {
+    text-align: right;
+}

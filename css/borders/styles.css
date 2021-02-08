@@ -1,0 +1,28 @@
+p.dotted {
+    /* top, bottom */
+    border-style: dotted solid;
+    /* top, right, bottom, left */
+    border-width: 10px 10px 10px 10px;
+    border-color: red blue green black;
+    border-radius: 50px;
+}
+p.dashed {border-style: dashed;
+}
+p.solid {border-style: solid;
+}
+p.double {border-style: double;
+}
+p.groove {border-style: groove;
+}
+p.ridge {border-style: ridge;
+}
+p.inset {border-style: inset;
+}
+p.outset {border-style: outset;
+}
+p.none {border-style: none;
+}
+p.hidden {border-style: hidden;
+}
+p.mix {border-style: dotted dashed solid double;
+}
