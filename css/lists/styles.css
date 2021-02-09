@@ -1,0 +1,32 @@
+ul.a {
+    list-style-type: circle;
+    list-style-position: outside;
+  }
+  
+ul.b {
+    list-style-type: square;
+    list-style-position: inside;
+
+}
+  
+ol.c {
+    list-style-type: upper-roman;
+    background: #ff9999;
+    padding: 100px;
+}
+  
+ol.d {
+    list-style-type: lower-alpha;
+    background: #3399ff;
+    padding: 20px;
+}
+ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #cce5ff;
+    margin: 5px;
+  }

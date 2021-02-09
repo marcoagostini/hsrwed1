@@ -5,11 +5,20 @@ body {
 h1 {
     color: aliceblue;
     text-align: center;
+    text-decoration: overline;
 
 }
 h1.rtl {
     direction: rtl;
     unicode-bidi: bidi-override;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 100px;
+    letter-spacing: 100px;
+    word-spacing: -100px;
+    line-height: 1.0;
+    white-space: nowrap;
+    text-shadow: 2px 2px 5px red;
 }
 h2 {
     text-align: left;
@@ -17,3 +26,38 @@ h2 {
 h3 {
     text-align: right;
 }
+p {
+    font-size: xx-large;
+}
+
+/* in css five generic font families are kown.
+Serif, Sans-serif, monospace, cursive, fantasy */
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+}
+ 
+/* font sizes */
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 1.875em; /* 30px/16=1.875em */
+}
+/* combination of em and percent */
+/* 
+body {
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 0.875em;
+}
+*/
