@@ -1,0 +1,13 @@
+li {
+    display: inline;
+}
+
+h1.hidden {
+    display: none;
+}
+
+/* However, the element will still take up the same space as before. The element will be hidden, but still affect the layout: */
+
+h1.hidden2 {
+    visibility: hidden;
+  }

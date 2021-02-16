@@ -1,0 +1,20 @@
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: top;
+  }
+table {
+    width: 100%;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+    height: 70px;
+  }
+tr:nth-child(even) {
+    background-color: blue;
+} 
+tr:hover {
+    background-color: red;
+} 
